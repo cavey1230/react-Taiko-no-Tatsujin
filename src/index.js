@@ -17,17 +17,19 @@ console.log(store.getState());
 const mapStateToProps = (state) => {
     return {
         audio: state.audio,
-        inde: state.index
+        index: state.index
     }
 };
 const mapDispatchToProps = (dispatch) => {
     return {
-        addAudio: (input, type) => {
+        myactions: (input, type) => {
             switch (type) {
-                case "audio":
+                case "addaudio":
                     return dispatch(actionAudio(input));
-                case  "index":
+                case  "addindex":
                     return dispatch(actionIndex(input));
+                default:
+                    return console.log("err for mapDispatch");
             }
         }
     }
@@ -38,7 +40,7 @@ const Con = connect(mapStateToProps, mapDispatchToProps)(App);
 const render = () => {
     ReactDOM.render(
         <Provider store={store}>
-            <Con />
+            <Con/>
         </Provider>,
         document.getElementById('root')
     )

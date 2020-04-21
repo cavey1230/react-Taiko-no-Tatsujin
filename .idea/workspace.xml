@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaa01795-53f5-438a-8b25-2a3c8a520fbe" name="默认更改列表" comment="111">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/leftPad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducer/indexReducer.js" afterDir="false" />
+    <list default="true" id="aaa01795-53f5-438a-8b25-2a3c8a520fbe" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/component/rightPad.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/leftPad.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/leftPad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer/audioReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/audioReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +19,15 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1apTDrUw3mYYvA8T9Yja9RUB3AE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -64,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587431418843</updated>
-      <workItem from="1587431421015" duration="18912000" />
+      <workItem from="1587431421015" duration="20064000" />
+      <workItem from="1587464274578" duration="2264000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1587431883151</created>
@@ -87,11 +88,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587432696100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="111">
+      <created>1587463086943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587463086943</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -103,39 +111,52 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="111" />
     <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="593" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587436030997">
+    <state x="593" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587464982352">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="593" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1587436030997" />
+    <state x="593" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1587464982352" />
     <state x="827" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587431584638">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="827" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587431584638" />
-    <state x="705" y="37" key="CommitChangelistDialog2" timestamp="1587463030144">
+    <state x="705" y="37" key="CommitChangelistDialog2" timestamp="1587463086592">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="705" y="37" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1587463030144" />
-    <state width="1356" height="252" key="GridCell.Tab.0.bottom" timestamp="1587462913092">
+    <state x="705" y="37" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1587463086592" />
+    <state width="1356" height="252" key="GridCell.Tab.0.bottom" timestamp="1587464232508">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1356" height="252" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1587462913092" />
-    <state width="1356" height="252" key="GridCell.Tab.0.center" timestamp="1587462913092">
+    <state width="1356" height="252" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1587464232508" />
+    <state width="1356" height="252" key="GridCell.Tab.0.center" timestamp="1587464232508">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1356" height="252" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1587462913092" />
-    <state width="1356" height="252" key="GridCell.Tab.0.left" timestamp="1587462913092">
+    <state width="1356" height="252" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1587464232508" />
+    <state width="1356" height="252" key="GridCell.Tab.0.left" timestamp="1587464232508">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1356" height="252" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1587462913092" />
-    <state width="1356" height="252" key="GridCell.Tab.0.right" timestamp="1587462913092">
+    <state width="1356" height="252" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1587464232508" />
+    <state width="1356" height="252" key="GridCell.Tab.0.right" timestamp="1587464232508">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1356" height="252" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1587462913092" />
+    <state width="1356" height="252" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1587464232508" />
     <state x="653" y="90" key="SettingsEditor" timestamp="1587434398173">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -144,9 +165,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="919" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1040@0.0.2560.1040" timestamp="1587431783997" />
-    <state x="535" y="390" width="1033" height="598" key="dock-window-1" timestamp="1587461874322">
+    <state x="598" y="246" width="1033" height="598" key="dock-window-1" timestamp="1587466337307">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="535" y="390" width="1033" height="598" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1587461874322" />
+    <state x="598" y="246" width="1033" height="598" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1587466337307" />
   </component>
 </project>

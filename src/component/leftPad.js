@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 
 
 class LeftPad extends Component {
-    handleOnClick(id) {
-        let myaudio = document.getElementById(id);
+    handleOnClick(id, index) {
+        const myaudio = document.getElementById(id);
+        this.props.action(index,'addindex');
         myaudio.play();
     }
 
@@ -14,7 +15,8 @@ class LeftPad extends Component {
             let itemArr = [];
             for (let i = 0; i < audio[0].length; i++) {
                 itemArr.push(
-                    <button key={"key_"+i} className="drum-machine" id={"drum_" + i} onClick={() => this.handleOnClick(audio[0][i])}>
+                    <button key={"key_" + i} className="drum-machine" id={"drum_" + i}
+                            onClick={() => this.handleOnClick(audio[0][i],i)}>
                         {audio[0][i]}
                         <audio className="clip" id={audio[0][i]}>
                             Your browser does not support the <code>audio</code> element

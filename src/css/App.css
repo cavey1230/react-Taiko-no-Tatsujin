@@ -40,7 +40,10 @@ body {
     font-weight: 800;
     font-size: 1.3rem;
     background-color: white;
-    background: linear-gradient(45deg, white,gainsboro);
+    background: linear-gradient(45deg, white, gainsboro);
+}
+.drum-machine:active{
+    color: aqua;
 }
 
 @media screen and (max-width: 400px) {
@@ -48,4 +51,25 @@ body {
         width: 2rem;
         height: 2rem;
     }
+}
+
+#rightpad {
+    margin: 1rem;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#rightpad p {
+    background-color: sandybrown;
+    font-weight: 800;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#rightimg {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 5rem;
 }
